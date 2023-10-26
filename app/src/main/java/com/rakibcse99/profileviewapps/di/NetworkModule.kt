@@ -56,7 +56,7 @@ class NetworkModule {
 
     @Singleton
     @Provides
-    fun providesLandValueAPI(
+    fun providesProfileViewAPI(
         retrofitBuilder: Retrofit.Builder,
         okHttpClient: OkHttpClient
     ): CharacterApi {

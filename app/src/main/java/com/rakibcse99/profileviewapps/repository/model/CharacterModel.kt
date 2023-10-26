@@ -2,6 +2,8 @@ package com.rakibcse99.profileviewapps.repository.model
 import androidx.annotation.Keep
 
 import com.google.gson.annotations.SerializedName
+import com.rakibcse99.profileviewapps.utils.join
+
 
 @Keep
 data class CharacterModel(
@@ -45,9 +47,7 @@ data class CharacterModel(
     val alive: Boolean? = null, // true
     @SerializedName("image")
     val image: String? = null // https://ik.imagekit.io/hpapi/harry.jpg
-){
-
-}
+)
 
 @Keep
 data class Wand(
