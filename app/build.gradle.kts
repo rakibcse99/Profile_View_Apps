@@ -37,17 +37,27 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    buildFeatures {
+        viewBinding = true
+        dataBinding= true
+        buildConfig = true
+    }
 }
 
+// Allow references to generated code
+kapt {
+    correctErrorTypes = true
+}
 dependencies {
 
     //image downloader
-    implementation ("io.coil-kt:coil-compose:2.4.0")
-   // def hilt_version = ("2.44")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    // def hilt_version = ("2.44")
     //noinspection GradleDependency
-    implementation ("com.google.dagger:hilt-android:2.44")
+    implementation("com.google.dagger:hilt-android:2.44")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    kapt ("com.google.dagger:hilt-compiler:2.44")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    kapt("com.google.dagger:hilt-compiler:2.44")
 
     //viewmodel
     val lifecycle_version = "2.6.1"
