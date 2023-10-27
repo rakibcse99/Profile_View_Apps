@@ -45,14 +45,19 @@ class CharacterModelViewAdapter @Inject constructor() :  RecyclerView.Adapter<Ch
 
     override fun onBindViewHolder(holder: CharacterHolder, position: Int) {
         val characterModel = differ.currentList[position]
+
 //        holder
         holder.binding.apply {
             characterModel?.let {
+                firstName.text=it.name
+                gender.text=it.gender
+                dateOfBirth.text=it.dateOfBirth
                 Glide
                     .with(holder.binding.root)
                     .load(it.image)
                     .centerCrop()
                     .into(holder.binding.profileImage)
+
                      root.setOnClickListener {
                     listener?.callback(characterModel)
 

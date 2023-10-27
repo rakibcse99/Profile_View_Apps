@@ -30,9 +30,7 @@ data class CharacterModel(
     @SerializedName("eyeColour")
     val eyeColour: String? = null, // green
     @SerializedName("hairColour")
-    val hairColour: String? = null, // black
-    @SerializedName("wand")
-    val wand: Wand? = null,
+    val hairColour: String? = null,
     @SerializedName("patronus")
     val patronus: String? = null, // stag
     @SerializedName("hogwartsStudent")

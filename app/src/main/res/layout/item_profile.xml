@@ -43,16 +43,22 @@
             android:layout_height="wrap_content"
             tools:text="Rakibul Hasan" />
 
-
-
         <TextView
+            android:id="@+id/gender"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:id="@+id/mobileNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="01622732891" />
+            tools:text="gender" />
+        <TextView
+            android:id="@+id/dateOfBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="18-11-1998" />
 
     </LinearLayout>
 
