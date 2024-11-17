@@ -1,9 +1,11 @@
 # 🔖 # Character View Apps
 <h1>Apps Screen<h1>
- <img src="https://github.com/rakibcse99/Profile_View_Apps/blob/master/app/src/main/res/drawable/image1.jpg?raw=true" width="25%"/>
- <img src="https://github.com/rakibcse99/Profile_View_Apps/blob/master/app/src/main/res/drawable/image2.jpg?raw=true" width="25%"/>
 
-## Built With 🛠
+ <img src="https://github.com/rakibcse99/Interview-Project/blob/master/app/src/main/res/drawable/image1.png?raw=true" width="25%"/>
+ <g src="https://github.com/rakibcse99/Interview-Project/blob/master/app/src/main/res/drawable/image2.png?raw=true" width="25%"/>
+ g src="https://github.com/rakibcse99/Interview-Project/blob/master/app/src/main/res/drawable/image4.png?raw=true" width="25%"/>
+
+
 
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android
   development.
